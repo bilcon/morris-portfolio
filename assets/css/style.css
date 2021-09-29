@@ -51,11 +51,11 @@ a {
 
 /* Begin Hero/Content Style */
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Thanksgiving_2005_020.bmp");

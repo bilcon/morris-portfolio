@@ -55,7 +55,7 @@ p {
 }
 
 .hero {
-    height: 600px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Thanksgiving_2005_020.bmp");
@@ -110,3 +110,57 @@ p {
     font-size: 36px;
 }
 /* End of Hero/Content Style */ 
+
+/* Start of Hobbies Style */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #053519;
+}
+
+/* combined lead, brand and cost - changed margin to align the bottom boxes */
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* combined lead h3, brand h3, cost h3 - changed margin to align the bottom boxes */
+
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* combined lead img, brand img, cost img - changed margin to align the bottom boxes */
+
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* End of hobbies Style */
+
+/* Start of Footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+/* End of Footer */

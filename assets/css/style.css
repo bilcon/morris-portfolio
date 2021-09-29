@@ -48,3 +48,65 @@ a {
     text-decoration: none;
 }
 /* End of Header/Navigation tags */
+
+/* Begin Hero/Content Style */
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Thanksgiving_2005_020.bmp");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* moved the "seo" sections before benefits for better flow */
+/* combined search, online, social */
+
+.runbuddy,
+.horiseon,
+.portfolio {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #053519;
+    color: #ffffff;
+}
+
+/* combined search img, online img, social img  */
+
+.runbuddy img,
+.horiseon img,
+.portfolio img {
+    max-height: 200px;
+}
+
+/* combined search h2, online h2, social h2 */
+
+.runbuddy h2,
+.horiseon h2,
+.portfolio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* End of Hero/Content Style */ 

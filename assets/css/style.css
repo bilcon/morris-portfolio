@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .header h1 .seo {
@@ -68,93 +68,67 @@ p {
     background-position: center;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+  .main-header {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #053519;
+    color: #fff;
+  }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* moved the "seo" sections before benefits for better flow */
-/* combined search, online, social */
-
-.runbuddy,
-.horiseon,
-.portfolio {
+  .portfolio {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #053519;
     color: #ffffff;
-}
+    flex: 1 1 100px;
+    padding: 10px;
+  }
+  
+  .big {
+    flex: 1 1 100;
+    min-width: 550px;
+  }
 
-/* combined search img, online img, social img  */
+  .portfolio header {
+    padding: 20px;
+    background: #053519;
+    color: #fff;
+  }
+  
+  .portfolio img {
+    width: 100%;
+    min-width: 200px;
+  }
 
-.runbuddy img,
-.horiseon img,
-.portfolio img {
-    max-height: 200px;
-}
-
-/* combined search h2, online h2, social h2 */
-
-.runbuddy h2,
-.horiseon h2,
-.portfolio h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* End of Hero/Content Style */ 
 
+
 /* Start of Hobbies Style */
+
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    display: flex;
+    margin-top: 50%;
     clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
+    float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #053519;
-}
+    margin: 10px auto;
+    max-width: 150px;
 
-/* combined lead, brand and cost - changed margin to align the bottom boxes */
-
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 20px;
+.benefits {
     color: #ffffff;
 }
 
-/* combined lead h3, brand h3, cost h3 - changed margin to align the bottom boxes */
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* combined lead img, brand img, cost img - changed margin to align the bottom boxes */
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* End of hobbies Style */
 
 /* Start of Footer */
@@ -166,7 +140,7 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 64px;
 }
 /* End of Footer */
 

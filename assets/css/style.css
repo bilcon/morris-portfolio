@@ -21,18 +21,14 @@ body {
 }
 
 .header h1 {
-    font-size: 60px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+    font-size: 48px;
 }
 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .header div ul {
@@ -136,24 +132,42 @@ p {
 
 /* Start of Footer */
 .footer {
-    background-color: #053519;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  padding: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #053519;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
   
   .footer h2 {
-    color: #053519;
-    font-size: 30px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
     margin: 0;
   }
-  
+
   .footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
+    padding-top: 25px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+  .footer div ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+  .footer div ul li {
+    margin-left: 25px;
+}
   
   .footer a {
     color: #ffffff;

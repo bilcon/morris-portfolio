@@ -67,16 +67,19 @@ p {
 .port {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 2%;
   }
 
-  .main-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px;
-    background: #053519;
-    color: #fff;
+  .port {
+    order: -1;
+    flex: 1 0 100%;
+  }
+
+  .port h3 {
+    color: #053519;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
   }
 
   .portfolio {
@@ -109,6 +112,7 @@ p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
   padding: 10px 20px;
+  margin: 0px 0px 10px 0px;
 }
 
 .hh h3 {
@@ -131,28 +135,64 @@ p {
 }
 /* End of hobbies Style */
 
+/* Begin of Experiences */
+
+.experience {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #053519;
+  padding: 10px 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.experience h2 {
+  font-size: 24px;
+}
+
+.experience li {
+  font-size: 16px;
+  list-style: none;
+  list-style-type: none;
+}
+
+
+
+
+/* End of Experience */
+
+/* Begin of Education */
+
+.education {
+  font-size: 16px;
+  list-style: none;
+  list-style-type: none;
+}
+
+/* End of Education */
+
+
 /* Start of Footer */
 .footer {
-  padding: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #053519;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
   
   .footer h2 {
-    padding: 20px;
+    padding: 30px 0px 0px 20px;
     color: #ffffff;
     font-size: 24px;
     margin: 0;
   }
 
   .footer div {
-    padding-top: 25px;
-    margin-right: 20px;
+    padding-top: 35px;
+    margin-right: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
 }
@@ -162,12 +202,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
   .footer div ul li {
-    margin-left: 25px;
+    margin-left: 50px;
 }
   
   .footer a {

@@ -68,16 +68,14 @@ p {
     background-position: center;
 }
 
-main {
+.port {
     display: flex;
-    /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     margin-top: 2%;
   }
 
   .main-header {
     display: flex;
-    /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px;
@@ -94,10 +92,6 @@ main {
     padding: 10px;
   }
   
-  .big {
-    flex: 1 1 100;
-    min-width: 550px;
-  }
 
   .portfolio header {
     padding: 20px;
@@ -114,34 +108,57 @@ main {
 
 
 /* Start of Hobbies Style */
-
-.benefits {
-    display: flex;
-    margin-top: 50%;
-    clear: both;
-    float: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #053519;
-    margin: 10px auto;
-    max-width: 150px;
-
-.benefits {
-    color: #ffffff;
+.hh {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #053519;
 }
 
+.hh h3 {
+  font-size: 30px;
+}
+
+.me {
+    flex: 1 1 25%;
+    flex-direction: row;
+    padding: 0 0 5px 60px;
+}
+
+.me p {
+    font-size: 14px;
+}
+
+.me img {
+    width: 30%;
+    
+}
 /* End of hobbies Style */
 
 /* Start of Footer */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 64px;
-}
+    background-color: #053519;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer h2 {
+    color: #053519;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  .footer a {
+    color: #ffffff;
+  }
+  
 /* End of Footer */
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */

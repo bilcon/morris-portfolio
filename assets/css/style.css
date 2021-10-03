@@ -68,12 +68,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 2%;
-  }
-
-  .port {
-    order: -1;
-    flex: 1 0 100%;
   }
 
   .port h3 {
@@ -82,15 +76,33 @@ p {
     padding: 0px 0px 0px 0px;
   }
 
-  .portfolio {
-    margin-bottom: 20px;
-    height: 350px;
+  .portfoliofirst {
+    padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
-    flex: 1 1 100px;
-    padding: 10px;
+    order: -1;
+    flex: 1 0 100%;
   }
   
+
+  .portfolio1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+  }
+
+  .portfolio2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    flex: 1;
+    padding-right: 50px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+  }
+
 
   .portfolio header {
     padding: 20px;
@@ -98,44 +110,21 @@ p {
     color: #fff;
   }
   
-  .portfolio img {
+  .height1 {
     width: 100%;
-    min-width: 200px;
+    max-height: 300px;
+  }
+
+  .height {
+    width: 100%;
+    height: 100%;
   }
 
 /* End of Hero/Content Style */ 
 
-
-/* Start of Hobbies Style */
-.hh {
-  color: #ffffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #053519;
-  padding: 10px 20px;
-  margin: 0px 0px 10px 0px;
-  display: flex;
-  flex-wrap: wrap;
+.break {
+  padding: 25px;
 }
-
-.hh h3 {
-  font-size: 35px;
-}
-
-.me {
-    flex: 1 1 25%;
-    flex-direction: row;
-    padding: 0 0 5px 60px;
-}
-
-.me p {
-    font-size: 14px;
-}
-
-.me img {
-    width: 40%;
-    
-}
-/* End of hobbies Style */
 
 /* Begin of Experiences */
 
@@ -156,9 +145,6 @@ p {
   list-style-type: none;
 }
 
-
-
-
 /* End of Experience */
 
 /* Begin of Education */
@@ -167,7 +153,7 @@ p {
   color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
-  padding: 10px 150px;
+  padding: 10px 0px 30px 150px;
 }
 
 .education h2 {
@@ -183,6 +169,44 @@ p {
 
 /* End of Education */
 
+/* Start of Hobbies Style */
+.hh {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #053519;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.hh h3 {
+  font-size: 35px;
+  padding: 25px;
+  margin-left: 125px; 
+}
+
+.hob {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-right: 75px;
+  margin-bottom: 50px;
+}
+
+.text {
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+.me {
+  max-width: 15%; 
+  max-height: 150px;
+}
+/* End of hobbies Style */
+
 
 /* Start of Footer */
 .footer {
@@ -191,31 +215,30 @@ p {
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding-top: 20px;
 }
   
 .footer h3 {
   color: #ffffff;
   font-size: 24px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  list-style: none;
-  list-style-type: none;
+  margin-bottom: 50px;
 }
 
-  .footer div {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
   .footer div ul {
-    list-style: none;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.footer div ul li {
+  margin-top: 15px;
+  margin-left: 75px;
 }
   
   .footer a {
@@ -226,13 +249,26 @@ p {
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  .height1 {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .text {
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+  
+  .me {
+    max-width: 25%; 
+    max-height: 150px;
+  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-}
+/* NO ADJUSTMENT NECESSARY FOR 768PX BECAUSE CSS MATCHES 980PX */
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-}
+/* NO ADJUSTMENT NECESSARY FOR 575PX BECAUSE CSS MATCHES 980PX */
 

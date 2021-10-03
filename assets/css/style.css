@@ -5,134 +5,130 @@
 }
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
-
 
 /* Start Header/Navigation tags */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #053519;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #053519;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .header h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+  padding-top: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  margin-right: 20px;
 }
 
 .header div ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
-.header div ul li {
-    margin-left: 25px;
+.header div li {
+  margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 /* End of Header/Navigation tags */
 
-/* Begin Hero/Content Style */
-p {
-    font-size: 20px;
-}
-
+/* Begin Hero/Portfolio Style */
 .hero {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/Thanksgiving_2005_020.bmp");
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 25px;
+  background-image: url("../images/Thanksgiving_2005_020.bmp");
+  background-size: cover;
+  background-position: center;
 }
 
 .port {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
-  .port h3 {
-    color: #053519;
-    font-size: 35px;
-    padding: 0px 0px 0px 0px;
-  }
+.port h3 {
+  color: #053519;
+  font-size: 35px;
+}
 
-  .portfoliofirst {
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    order: -1;
-    flex: 1 0 100%;
-  }
-  
+.portfolio header {
+  font-size: 24px;
+}
 
-  .portfolio1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    flex: 1;
-    padding-left: 50px;
-    padding-right: 5px;
-    padding-bottom: 50px;
-  }
-
-  .portfolio2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    flex: 1;
-    padding-right: 50px;
-    padding-left: 5px;
-    padding-bottom: 50px;
-  }
-
-
-  .portfolio header {
-    padding: 20px;
-    background: #053519;
-    color: #fff;
+.portfoliofirst {
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  order: -1;
+  flex: 1 0 100%;
   }
   
-  .height1 {
-    width: 100%;
-    max-height: 300px;
-  }
+.portfolio1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  flex: 1;
+}
 
-  .height {
-    width: 100%;
-    height: 100%;
-  }
+.portfolio2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  padding-right: 50px;
+  padding-left: 5px;
+  padding-bottom: 50px;
+  flex: 1;
+}
 
-/* End of Hero/Content Style */ 
+.portfolio header {
+  padding: 20px;
+  background: #053519;
+  color: #fff;
+}
+  
+.height1 {
+  width: 100%;
+   max-height: 300px;
+}
+
+.height {
+  width: 100%;
+  height: 100%;
+}
+/* End of Hero/Portfolio Style */ 
 
 .break {
   padding: 25px;
 }
 
 /* Begin of Experiences */
+p {
+  font-size: 20px;
+}
 
 .experience {
-  color: #ffffff;
+  padding: 10px 150px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
-  padding: 10px 150px;
+  color: #ffffff;
 }
 
 .experience h2 {
@@ -140,20 +136,18 @@ p {
 }
 
 .experience li {
-  font-size: 16px;
   list-style: none;
   list-style-type: none;
+  font-size: 14px;
 }
-
 /* End of Experience */
 
 /* Begin of Education */
-
 .education {
-  color: #ffffff;
+  padding: 10px 0px 30px 150px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
-  padding: 10px 0px 30px 150px;
+  color: #ffffff;
 }
 
 .education h2 {
@@ -161,19 +155,17 @@ p {
 }
 
 .education li {
-  font-size: 16px;
   list-style: none;
   list-style-type: none;
+  font-size: 14px;
 }
-
-
 /* End of Education */
 
 /* Start of Hobbies Style */
 .hh {
-  color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -207,16 +199,15 @@ p {
 }
 /* End of hobbies Style */
 
-
 /* Start of Footer */
 .footer {
+  padding-top: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #053519;
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 20px;
 }
   
 .footer h3 {
@@ -226,14 +217,13 @@ p {
   margin-bottom: 50px;
 }
 
-
-  .footer div ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+.footer div ul {
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer div ul li {
@@ -241,9 +231,9 @@ p {
   margin-left: 75px;
 }
   
-  .footer a {
-    color: #ffffff;
-  }
+.footer a {
+  color: #ffffff;
+}
   
 /* End of Footer */
 

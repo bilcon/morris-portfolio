@@ -56,7 +56,7 @@ p {
 }
 
 .hero {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Thanksgiving_2005_020.bmp");
@@ -78,7 +78,7 @@ p {
 
   .port h3 {
     color: #053519;
-    font-size: 30px;
+    font-size: 35px;
     padding: 0px 0px 0px 0px;
   }
 
@@ -113,10 +113,12 @@ p {
   background-color: #053519;
   padding: 10px 20px;
   margin: 0px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hh h3 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .me {
@@ -130,7 +132,7 @@ p {
 }
 
 .me img {
-    width: 30%;
+    width: 40%;
     
 }
 /* End of hobbies Style */
@@ -141,12 +143,11 @@ p {
   color: #ffffff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #053519;
-  padding: 10px 20px;
-  margin: 20px 0px 10px 0px;
+  padding: 10px 150px;
 }
 
 .experience h2 {
-  font-size: 24px;
+  font-size: 35px;
 }
 
 .experience li {
@@ -163,10 +164,22 @@ p {
 /* Begin of Education */
 
 .education {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #053519;
+  padding: 10px 150px;
+}
+
+.education h2 {
+  font-size: 35px;
+}
+
+.education li {
   font-size: 16px;
   list-style: none;
   list-style-type: none;
 }
+
 
 /* End of Education */
 
@@ -177,36 +190,32 @@ p {
   background-color: #053519;
   color: #ffffff;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 20px;
+  justify-content: space-evenly;
+}
+  
+.footer h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  list-style-type: none;
 }
 
-  
-  .footer h2 {
-    padding: 30px 0px 0px 20px;
-    color: #ffffff;
-    font-size: 24px;
-    margin: 0;
-  }
-
   .footer div {
-    padding-top: 35px;
-    margin-right: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
   .footer div ul {
+    list-style: none;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-
-  .footer div ul li {
-    margin-left: 50px;
+    margin-top: 15px;
 }
   
   .footer a {

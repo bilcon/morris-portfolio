@@ -18,7 +18,7 @@ body {
 /* Start Header/Navigation tags */
 .header {
   padding: 20px;
-  font-family: var(--secondary-fontfamily);
+  font-family: var(--primary-fontfamily);
   background-color: var(--primary-color);
   color: var(--secondary-color);
   display: flex;
